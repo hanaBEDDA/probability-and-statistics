@@ -1,0 +1,5 @@
+#tracer la densité de la fonction de répartition 
+#la loi binomiale de n=20 et p=0.35
+x<-0:20
+y<-dbinom(x,size = 20,prob = .35)
+{plot(x,y,type="h",lwd=5,main="Densité Binomaile avec\n n=20,p=.35",ylab="p(x)",col="blue",lend="square")}
