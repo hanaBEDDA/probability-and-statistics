@@ -1,0 +1,7 @@
+x<-0:20
+#la fonction de densité  chi deux
+y <- dchisq(x,df=10)
+# le graph de la fonction
+plot(x, y, type = "l", lwd = 1, main = "Densité chi deux \n df=10", ylab = "p(x)")
+# tracer de fonction de répartirion
+curve(dchisq(x, df=10),main="fonction de répartition ",from = -3 , to=3)
