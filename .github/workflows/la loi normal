@@ -1,0 +1,7 @@
+x<-0:10
+#la fonction de densité  de la loi normal
+y <- dnorm(x, mean = 4,sd=1.4)
+# le graph de la fonction
+plot(x, y, type = "h", lwd = 5,main = "Densité de la loi normale \n mean=4,sd=1.4")
+#tracer la fonction de réprtition 
+curve(dnorm(x,mean = 4,sd=1.4),main="la fonction de la loi normal",from = -10,to=10)
