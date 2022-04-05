@@ -1,0 +1,8 @@
+x<-0:10
+#la fonction de densité  uniforme
+y <- dunif(x,min=0,max = 5)
+
+# le graph de la fonction
+plot(x, y, type = "h", lwd = 5,main = "Densité de la loi uniforme", ylab = "p(x)")
+# tracer de fonction de répartirion
+curve(dunif(x,min = 0,max = 5),main="fonction de répartition ",from = -1, to=1)
