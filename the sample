@@ -1,0 +1,9 @@
+#choisir un nombre entre 1 et 100
+sample(1:100,1)
+#lancer un dé 10 fois
+sample(1:6,10,replace = T)
+# un dé non équilibre
+sample(1:6,10,T,c(0.6,0.4,0.4,0.7,0.2,0.1))
+#tirer 6 boules dans cette urne
+urn<-c(rep("red",8),rep("blue",4),rep("yello",3))
+sample(urn,6,replace = F)
